@@ -5,7 +5,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 95vh;
-  display: inline-block;
 }
 .main {
   flex: 1;
@@ -24,9 +23,7 @@ footer {
 }
 
 @media (max-width: 680px) {
-  
-.logo{
-  display: block;
+  .logo{
   width: 100px;
 }
 }
@@ -37,7 +34,15 @@ footer {
   float: right;
 }
 .card{
+  margin-bottom: 30px;
   display: block;
   width: 100px;
-  text-align: center;
+  text-align: justify;
+}
+
+.card img {
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  object-fit: cover;
 }
