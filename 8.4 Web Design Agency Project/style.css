@@ -19,4 +19,25 @@ footer {
   text-align: right;
   color: midnightblue;
 }
+.Creative{
+  color: navy;
+}
 
+@media (max-width: 680px) {
+  
+.logo{
+  display: block;
+  width: 100px;
+}
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.card{
+  display: block;
+  width: 100px;
+  text-align: center;
+}
